@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo {
+    width: 100vw;
+    position: absolute; /* Faz a imagem ocupar toda a tela */
+    z-index: 0; /* A imagem fica no fundo */
+}
+
+.titulo {
+    left: 15%;
+    top: 10%;
+    color: #fff;
+    text-align:center;
+    align-items: center;
+    position: absolute; /* Faz o título ser posicionado por cima da imagem */
+    z-index: 1; /* Título fica por cima da imagem */
+    line-height: 0.8;
+}
+
+.senai, .skillup {
+    display: block;  /* Faz cada palavra ficar em uma linha */
+    margin: 0;  /* Remove margens automáticas */
+    padding: 0; /* Remove espaçamentos internos */
+}
+
+.senai{
+    font-size: 108.62px;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.skillup{
+    font-size: 63.51px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -20px;
+}
+
+.ilustracao{
+    width:70vh;
+    height: 70vh;
+    right: 15%;
+    top: 15%;
+    position: absolute;
+    z-index: 1;
+}
